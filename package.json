@@ -1,0 +1,20 @@
+{
+  "name": "servidor-a",
+  "version": "1.0.0",
+  "description": "Subscriber MQTT → MongoDB (Tecsus)",
+  "main": "dist/subscriber.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/subscriber.js",
+    "dev": "ts-node src/subscriber.ts"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "mqtt": "^5.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
