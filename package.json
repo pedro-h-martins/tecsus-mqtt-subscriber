@@ -6,15 +6,19 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/subscriber.js",
-    "dev": "ts-node src/subscriber.ts"
+    "dev": "ts-node src/subscriber.ts",
+    "lint": "eslint src/"
   },
   "dependencies": {
     "mongodb": "^6.3.0",
     "mqtt": "^5.3.4"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^20.11.0",
+    "eslint": "^10.5.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^8.61.1"
   }
 }
